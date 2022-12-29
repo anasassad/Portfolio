@@ -14,57 +14,69 @@
 :root {
     --primary-color: yellow;
 }
-body{
+
+body {
     overflow-x: hidden;
 }
-#portfolio {
+
+.title {
     position: absolute;
 
     text-align: center;
     font-weight: 700;
-    font-size: 18px;
-    top: 25px;
-    left: 25px;
+    font-size: 1.125em;
     background-color: var(--primary-color);
     color: black;
-    padding: 0px 50px;
+    padding: 0 3.125em;
     line-height: 3em;
     border-radius: 31px;
     transition: 1s left;
 }
 
+#portfolio {
+    top: 25px;
+    left: 25px;
+}
+
 #download {
-    position: absolute;
-    text-align: center;
-    font-weight: 700;
-    font-size: 18px;
     top: 25px;
     right: 25px;
     background-color: white;
     color: black;
-    padding: 0px 40px;
-    line-height: 3em;
-    border-radius: 31px;
     z-index: 1;
 }
 
-#about-myself{
-    position: absolute;
-
-    text-align: center;
-    font-weight: 700;
-    font-size: 18px;
+#about-myself {
     top: 760px;
     left: 25px;
     background-color: black;
     color: white;
-    padding: 0px 50px;
-    line-height: 3em;
-    border-radius: 31px;
-    transition: 1s left;
 }
 
-#portfolio:hover , #download:hover{
+#duration {
+    color: black;
+    background-color: #f8c822;
+    top: 30px;
+    right: 30px;
+    padding: 0 1em;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#clock {
+    margin-left: 6px;
+}
+
+#work-experience {
+    top: 1460px;
+    left: 25px;
+    background-color: black;
+    color: white;
+}
+
+#portfolio:hover,
+#download:hover {
     transition: 1s all;
     cursor: pointer;
     background-color: black;
@@ -82,7 +94,7 @@ h1 {
     color: var(--primary-color);
     text-shadow: 0px 10px 10px rgba(0, 0, 0, 0.5);
 
-    font-size: 90px;
+    font-size: 5.625em;
     font-stretch: condensed;
     font-weight: 700;
 
@@ -92,22 +104,69 @@ h1 {
     z-index: 1;
 }
 
-p{
-    font-size: 40px;
+h4 {
+    color: #3c3737;
+}
+
+p {
+    font-size: 2.5em;
     font-weight: 700;
     color: var(--primary-color);
     margin-left: 30px;
 }
+
 ul {
     width: 70%;
 }
-li{
+
+li {
     display: inline-flex;
     list-style: none;
+    align-items: center;
 }
 
+#missions {
+    position: absolute;
+    display: flex;
+    overflow: hidden;
+    align-items: flex-start;
+    justify-content: center;
+    width: 60%;
+    height: 60%;
+    font-size: 2em;
+    top: 30px;
+    left: 20%;
+    right: 20%;
+}
 
-#fingerprint{
+#missions ul {
+    display: flex;
+    flex-direction: column;
+}
+
+#tasks {
+    align-self: flex-end;
+    width: 80%;
+    font-size: 1em;
+}
+
+.experience-position {
+    position: absolute;
+    display: flex;
+    font-size: 1.4em;
+    bottom: 0;
+    right: 0;
+    padding: 1em;
+    background-color: #3b9eff;
+    width: 330px;
+    height: 68px;
+    border-bottom-right-radius: 25px;
+    border-top-left-radius: 100%;
+    justify-content: right;
+    color: white;
+}
+
+#fingerprint {
     position: absolute;
     right: 5%;
     top: 650px;
@@ -115,18 +174,19 @@ li{
     height: 200px;
     z-index: 1;
 }
+
 #oval {
     position: absolute;
     right: 10%;
     top: 700px;
     width: 200px;
     height: 200px;
-    background-color: red;
-    opacity: 0.5;
+    background-color: #f8c822;
+    opacity: 0.6;
     z-index: -1;
     border-radius: 100%;
-    
-    animation : flash 1s infinite;
+
+    animation: flash 2.5s infinite;
 }
 
 #logo_pc {
@@ -217,7 +277,7 @@ li{
     height: 132px;
 }
 
-#rectangles-wrapper{
+#rectangles-wrapper {
     position: absolute;
     left: 78px;
     top: 884px;
@@ -225,13 +285,14 @@ li{
     height: 323.8px;
 }
 
-#shape-mountain{
+#mountain-shape {
     width: 100%;
     position: absolute;
-    top: 1285px;
+    top: 1255px;
     z-index: -1;
 }
-.rectangle-1{
+
+.rectangle-1 {
     position: absolute;
     left: 0px;
     top: 0px;
@@ -240,7 +301,8 @@ li{
     border-radius: 56px;
     background: #f8c822;
 }
-.rectangle-2{
+
+.rectangle-2 {
     position: absolute;
     display: flex;
     align-items: center;
@@ -254,19 +316,65 @@ li{
     background: #000000;
 }
 
-#carousel-languages{
+#carousel-languages {
     display: flex;
     justify-content: space-evenly;
     position: absolute;
-    width: 120%;
-    top: 1353px;
+    width: 100%;
+    top: 1340px;
+}
+
+#first-work-experience {
+    width: 80%;
+    position: absolute;
+    left: 10%;
+    right: 10%;
+    top: 1550px;
+    height: 318px;
+    border-radius: 25px;
+    background-color: white;
+    box-shadow: 0px 0px 18px rgba(100, 100, 100, 0.5);
+}
+
+#second-work-experience {
+    width: 80%;
+    position: absolute;
+    left: 10%;
+    right: 10%;
+    top: 1950px;
+    height: 318px;
+    border-radius: 25px;
+    background-color: white;
+    box-shadow: 0px 0px 18px rgba(100, 100, 100, 0.5);
+}
+
+#third-work-experience {
+    width: 80%;
+    position: absolute;
+    left: 10%;
+    right: 10%;
+    top: 2350px;
+    height: 318px;
+    border-radius: 25px;
+    background-color: white;
+    box-shadow: 0px 0px 18px rgba(100, 100, 100, 0.5);
+}
+
+.company-logo {
+    position: absolute;
+    border-radius: 30px;
+    top: 30px;
+    left: 30px;
+
+    box-shadow: 0px 0px 10px rgba(100, 100, 100, 0.5);
 }
 
 /* Animation */
 
 @keyframes flash {
-    
-    100%{
-        transform: scale(2);;
+
+    100% {
+        transform: scale(2);
+        ;
     }
 }
