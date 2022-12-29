@@ -9,15 +9,15 @@
   <title>Official Portfolio</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
-  <link rel="stylesheet" type="text/css" media="(max-width : 720px)" href="css/main_720.css">
+  <link rel="stylesheet" type="text/css" media="(max-width : 1200px)" href="css/main_1200.css">
 </head>
 
 <body>
-  <div id="portfolio">
+  <div id="portfolio" class="title">
     <strong>PORTFOLIO</strong>
   </div>
 
-  <div id="download">
+  <div id="download" class="title">
     <strong>DOWNLOAD CV</strong>
   </div>
 
@@ -30,7 +30,7 @@
 
   <h1>THIS IS TECH WORLD</h1>
 
-  <img id="logo_pc" src="assets/img/computer.png" alt="computer"/>
+  <img id="logo_pc" src="assets/img/computer.png" alt="computer" />
   <img id="logo_java" src="assets/img/java.png" alt="java">
   <img id="logo_angular" src="assets/img/angular-js.png" alt="angular js">
   <img id="logo_spring" src="assets/img/spring-boot.png" alt="spring boot">
@@ -43,7 +43,7 @@
     <span id="rec-5" class="fixed-logo"></span>
   </div>
 
-  <div id="about-myself">
+  <div id="about-myself" class="title">
     <strong>ABOUT MYSELF</strong>
   </div>
 
@@ -64,8 +64,8 @@
     </div>
   </div>
 
-  <svg id="fingerprint" width="313px" height="313px" viewBox="0 0 313 313" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink"
-    xmlns="http://www.w3.org/2000/svg">
+  <svg id="fingerprint" width="313px" height="313px" viewBox="0 0 313 313" version="1.1"
+    xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
     <defs>
       <image width="200" height="200"
         xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAYAAACtWK6eAAAABHNCSVQICAgIfAhkiAAAEaJJREFUeJztne1147YSht/cc/+HHQQdRB0sUsF1KghTQTYVWLeC7FZg3grsVCC4gnUqMLYCayvw/QExlh3JEt4BhiA1zzk4m+xq+IIkBh+DDwKGYRiGYRiGYRiGYRiGYRiGYRiGYRiGYRiGYRiGYRgV+W7qDFwQHYAfd//tj/z7avff4cC/x10CgL8AbIvlzDiKOUh5PiAV9BUAt5dq8IDkKGH35wPMeYpiDiJjheQQHskJVu/9WJGHXQoA7vHS8hiZmIPk4fDiEFdI3aI5MLYyAcCfMIcxCuIA/AHgEcDzQtIXAL+hXtfPWDgOqQB9wfSF2ZzFaIZfAGwwfaGdKt0C+I/4KRqLogNwjWV1oaTpEalVmcsYy6iAA3AD4AnTF8hW09PuGTnqCRuzxCG99KkL39ySOcrC6WCOUSJdw7pei2IcY1hXqlx6gjnKIriCOUZtR7k6+23MkKXOpDuk7pSfNhvvcu6aqf1Fjq1yB+B3LHCGfokOcg3gI9po/u/xekEh9v6fxeNl5a/Dyxqw7wXXLMEWwBrA54nzYRxhhWlnvh+QCsgVpon2OAA9gE+7vEz1HDZoZ9GmsaOH/lgjAhjQ7qLFDilvA1Ltru0ofe0bNE6jHbqNSDX0HGvIFVLeI/Se1w3arDwughV0lodskWphr3FTSqyQ7knDSb5gnhXKrOlRv0sV0c5gvxYd0rgpou6zXHw4uCWuUfdlBlzmy7xCuveaz/YPrZu5RGqPNwKW1Y1i8agbBeu1buSS6FAvhBthjnGIHvW6Xl7rJi6BWs6xhdVm59CjfJj4k+YNLJlazvEJyx58l6ZDWk5S6vl/0c3+MnEo7xwPsOZdgke5bpchYIXyYdy15g0smA6pBZZWVLOgxcWKHdIEYKku0De8hDCnYlyR+3aR4Yg/YBPxenXs+P8PAL5i+kLmkbpdzCLJP3GZoXQxpcccAdOMNT4gHXpwg7qz/Y9IJ5FMdWxPBy4k7CfI6yIo6RwfFfPdIR0ZdItpN2g9IjnlL9CtGHK6XEExX4viBmUKiWb41qPtc7Q0z7m6wulw8B0sekhR0jk0FsZ1aNsx3qYnpGUetZ9Nh8OLICMsSELTo0wheIBe7TTnI0k30BkDrPBy6r1BUiqcq+kc0hBnK0nLUQySUhErTedAgfy2ljaw/RpNcov5OYcvkOdW0x+wAXQzfMT8nANIA82pC3LNZBubGmCFeToHsOwWZD9tYK3JZGwge3lbTBcZcSfytqT0BBvEqyPtWmnNc7xHwPSFVzNdF3lqM0VzsaJDilpJmu6fMP1SBYe0pEPC/e7P8ObvA15/L31kXOA41RGkAcDPsM9LV2UDWU22Vs/xcXqcv8suIM2dlDpx0e2upX2C4pdC+WfoJtRWoYfs5QTtDJ+Bw+Hu1hZpzVEPnYGu5gmKT9Dr4joc/gLYBguLtI37O9iXskXbERWHl++m+ykzgvScepTdHjuFk1zh9AqLxRwhtIbshXjtDC8Eh3qnJz6h3orpnOVHmlsaquAgW2tlp1/IcajjKLVakk1mHlyFPKgxgH8BEW13reaGQ/muV2knYSaRh4L6qjjIHr4vlI8PSLH8a6Sddq7QdeeKR9kD4UrW4uw8WSl9VQbwD71E1+o3HO/eXfrCvBInk+wn6fzWyJrUHwpoq+LAP+wSUaubM3RKvdQ5c8422XPTpkB+JCstXAF9NQbwN9oLtXNqRgsCpIJVasJxLcyLZCHrINRWowMfuYpC7StC0wk1l8KAMk7ihfkIAu1Z9AjWmObhOnCOOftYekEGyB3kCbKC6gXaa4GuGmzrEYS6m4l0payQIm2H0hQrl9eQO8lGmIdA6j4KdavjME3rIRncBYFuLiuk6Not8vbjf8HLCYoaTrPOyNuxJFkv5QW6vUC3Oj30C6lkzPOM+gN1j8OL7iTpaXfNms4yFMijpKsVSN07gWZ1mEGy1OsHUnNMXqB9jA6ptn8U5u2c9Ih6R40OwrxJKh+2LD2j4cCLQ/7NRIGeJ/Rq1jYd0oz9FOfzPu20SzuKNAQsaeUiqdl04CUi72Z6gdYmU2s/ld7b7qHTYpxKjyjbKjrIJhM3Am12bNn0F6w8zr+RoKRzKJXadNOhzBlfpdMtyrUmku7OM3iH7cA759RnF7zLgNM3IK3BN2doHEuDQHefFdpoNY6lR5QrKJK1WxuB7kBqrgWaKry3zkd6DL4/ct1zUhRqj/SCPGinvsD9dpCtAvakLtt6Nd3NGhm3gK6RaoI1ytRoG/AvqkTX6lqgP1X6rcB9S7paG4FuJDWdQHO2SBa0hQL6NwL9qdNNgfuXbLpypCbbvetJvVkzQP8FjawF2q0kaQjUCbTZeRG2Umx60rAGklnzQajdk7otpl74LAZS90mgGZX1ZkkPvlA4gW6JA7dbS5KxoBPosmPAgdRrOtxbmgDuIQ0CTem5XsdSQOqyXeHwS1zt/m0tuO/30iNk0byB1GW7PWyAoOlZ9ZJ04AuDE+iWnASMSC+MKZhuZxsL5ueWyMd+flhd5v7Z9z8QWrOkB/eAgkDTk5pv0xZlIyo9yu0l94J8BFKzJ/WYdWGPpNbsGKD7Mkp1rQbUWWnbocwOQEkB6knNgdRjw72z2IorhYlebQV6a0LvrXYv0D+XXpjPZ/DLMthuD+uU7DjEk3qzwUO3ppJuwtpCN3qygqzLJdncNJCajtBypBY9UP8Xa6gMW9gCadeDLzDfkBz6gbRneICsluzAh1/ZqJQnbCLS883FETZV6FAnMwO4moMt5I+k3jOmXd7QH8hP7W4P281iHSsQWoHUKkKHdJTnfqF6QgohlupmMAU2kFqe0BrTQGqWZACff/Z9aUaXmIE6qyXmnP0Q10INtoZi1/0MpF6JI1NLINlkNJCabHSJYa2oJSJnINsLdPyZGm8T26dmB+c9qVeDHtw9sGuX2OgS02J5Uku98tpkZE4SJWEfviO02DVXkdCqTYReoXWkFlOJeVLLE1p0FKvLFOzAh9rYfnEkbDypVftsLQY2T56wiaQW824DqUXBOognbNiC7gib+9M/OYgn7QbSbmSFNFa73aVryAMcmuFXAPiLsHGkFgP1PP+tKMZ2sRxpx/ADYXMPfsa+Q9rl97arMa7ivQPwK3n9uMvbh0w75hkAXB4dqfUNwPeZNlT5m8tEYS6BtNNs8juc/ub31e43bOUSCBvtSVkGtUnYpToIg2QOgGF9puYK/FopNm+OtFscrINorjPK7SKwsLV0JGxWyDtlhD3VPRI2gJ6DsN05NSRRLCPB1NKesGEcRHM9GIObOgOnWGoXK0ydgRM4wqb1vdWtO6NnjJbqIK3DFPbWHUSy96ZZWAeJJTNhGAoExsgcxCiFnzoDNbAulmG8gznIC6338Y0J0HSQ1mPerYeuW48SMXwl7dTKEusgmutujATzzFtvFSNp5wgbKsrGOohWbdZ6rd46S3x+7D1RZVZ7DOIzf996DWi84JR0VMuEhXmNUripM3CCwBhpO4gn7XKJSjrsILN1YsM6vnAe3kXSxWIKh1afOC5MR5vYsA5ThpjdjgBkDhIJGxtTLJcflXSYMkSvE5M4CBMV0HqIrZO7XXQOaPUOmP1BdNRVuwXJPZp0qS2O1n21HuaNmb/X3vWp3oIA+ccFGTxajuhIu9iozt9M4SC1Xxp75E/rzhiVdFo+Pd2TdoEVlDjIFlwkq9VuU6v5GolKOpprvmLm75nxBx3BAuQz6YGwyblJR1xfk0XuoiNwpF3M1FDfly91kNq1jat8fSmtr7DV6jY6BQ1P2k3qIEFoX4MwdQZOoDnWabnbmNs996QOewQrgDItSO6N/inUnDstF1qA6zZ6wiZm/t4RGl8JnVeUWM2be4p4jkdrHRoHtL+hS2u802q3kSkLQSpawkEGnN+K3KP+Z8qWetxmqwUX4FYGaNxPkF6ghINskboNp8Jpf4H/6lMOmpGlqKjVMhrro5gphUDYvKLUhqktUj/0M/450fQV6Qj/FfIeii+RscpEwsYmJDlyB9v3aPdesEIq4JIBqYfut+i0Puu1JrUYBkLHZWqwn63zhM624vUPUmvL7QNS8ybpZzrSbomHG7AbswZCJ2baaLWIDzj/Q6mfUSjc3/K5WI6wYdYRAbqfPtDUCcgLq/eEhiNsAK7yvAPwM96vMH4F/z3Mf8B+gq1VtCM9kbDRHoP0SI5yai/Of8HVuo6wAfhgyt0ufcTroM/495G87uwIyO/XBlLLE1rsuCAQOoHUGulwfDwSIYsufjpy3ffSbNawWQuSaH0MEoX2W6SW5CNeB08C0jOTFNglftjnb1p2kA+EDfuimW6P5okmsdB1tnjpihhn0PIgnaHlvQwjS9uXz1RkoXQmatGqg7BdHrYFcaQdQ+sThcYerTqI6vmrUDwMmSQoauWgfoiCNq06iCftNAst85Jd6UxMDFuRzSaK1aqDqJ6eB71zqpySjhaOtIsF81CVVh1E9fS8CfRyCYpaOTjSLhbMQ1VadZAfCJtQOhMnYLpYrc+35OIIm1kd+N2qgzjCZqkRLHZ9mQaOsImF81CVFh3Ek3baOwkjaZdLyxEfpqWfzQAdaNNBHGkXC+ahlp4vnIepcYRNyw7/D8xB2i+0ceoMHMGRdrFgHqrTooN4woY9j5eF1WOWmURSqzaOtIsF81CdFh1EuxBpRpZaHnDn4ki7WDAP1WnNQTpwkZ4o1NTSY+wCqVUbR9rFgnmoTmsOwtbmQaDJRGIiqcVEcAKpVRtH2MxqDgRobz+IJ+20D4dgQ5WfAPwn4/cljmn1SEvSx8pnPFBDOm5zhE0Ual48d8jfvhkFeh2hJz1SJpypsYVsErMDcPPO9W8hW3r/+M61j6VBoGcAeEL+Q5fsjvOE3jNkA/sO5zmJVOPLGRqP4J2QeW5rUstAelHaD/2K1CzBGqn1O+TwTnjt91qOErW6y7j+fuqpuzEA8LW5F2iuCb3SSyXGUyg9yuw2dKj/DD2hIX1Xk9DSIF17FyHQxlKJ0tfzpE3I+P3idxKOtBTmZTdJSWp0R9i0vtjOK2gsfifhSEsOwgy2pcfXMLP2rdeCjrDJbRGYFkT0tdmpaMlBtsiP+38SamrP2mvwA2GT6/TMc5td6wG05SBAinKcu17pM2QP3ZN2UaCpgVPQ+EDYhNKZ0KA1Bxk/xHPKSX6H/ATvKYICtdG4p4sZfwDtOQiQXpZDOm38raPcA/gJ8q4VoH84nQYa93QxEay5MM4TlIZZ1hIq5KMk7MRnTqvQkxpOcF+T0dI8yDFq1TzMYDaWzkRhNFoQR2pE0m5SWuxiacEUplg6E4VxhE1u+PViQrzA5TrIUvvRjrDJHVNdTIgXMAfJpXUH0ZgDuZgQL3C5DuJIu1gwDzVwhI1G7R4VNKpwqQ7iCRvJDrwOwDVebzJ6Qtq09Ivguvs40i4U0n+P1lte4w3MxqyB1FqdoXdDXnsff0Kj1BL0kHn92Y4/LpUVuILEzNx3OH9r6oa9oR0fz9R5m3LxmdcfuNsxpqKHTk0L5BdaRmNknaklqd0fMq5vn5ybGQN0alrgvH3hpVqRkKn1DH780eG0k2yxvM89XAQB+QWJ/dyaliMC+c74DNl+mg5pTVw8cN0BM11aYnADdGZxpPaBEIzWWqC3zwrpfj0W1qWaw1qs0jAvkGlBPGHD4ki7WEj/AQsN5V7iPAhz/GUgbD4QNuzRnI60i6TdxXCJDpLb775HfkHqwA1QA2EDUgtYaK1fkkt0kE/I+wwBM/7whA3AF1j224c2iXeCS3SQiPMn/f4HLtJzRdgAuov6rPU4g0t0ECCFIX/F+y3J7+CPynSEzTfoFtqoqGXMlA6pNQl7aYA8hq99CHdP6LGtnGGIYeYkeqFmzNCysYcxKcyBEE6omTMx2Qu1DENED73uVa5uX0jLMGjOWcxXsvXY5wqHW7CAGX5+wFguDqmvP1WN7vDy3RFXScMwRDgcX14fYcvBm+e7qTNwITikrs844/2AcuMOwzAMwzAMwzAMwzAMwzAMwzAMwzAMwzAMwzAMwzAMY678Hy+ahWnxZUjGAAAAAElFTkSuQmCC"
@@ -86,13 +86,89 @@
     <img src="assets/img/c++.png" width="60" height="60" alt="c++">
     <img src="assets/img/ts.png" width="60" height="60" alt="typescript">
   </div>
-<div id="shape-mountain">
-  <svg width="100%" height="50%" viewBox="0 0 1346 635" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
-    <g id="Group-16">
-      <path d="M0 635L1346 635L1346 0L964.029 120.731L592.492 89.7069Q588.119 89.3418 583.732 89.3611Q579.345 89.3803 574.976 89.7837Q570.607 90.1871 566.291 90.9715Q561.974 91.756 557.743 92.9155L283.779 167.988Q282.492 168.341 281.188 168.624Q279.884 168.908 278.566 169.121Q277.249 169.335 275.922 169.478Q274.595 169.621 273.262 169.693Q271.929 169.765 270.595 169.766Q269.26 169.766 267.927 169.696Q266.595 169.626 265.267 169.484Q263.94 169.343 262.623 169.131Q261.305 168.919 260 168.637Q258.696 168.355 257.408 168.003Q256.121 167.652 254.854 167.233Q253.587 166.814 252.344 166.327Q251.101 165.841 249.886 165.289Q248.671 164.737 247.487 164.121Q246.303 163.505 245.153 162.826Q244.004 162.148 242.892 161.409L0 0L0 635Z" id="Rectangle-5" fill="#F8C822" fill-rule="evenodd" stroke="none" />
-    </g>
-  </svg>
-</div>
+
+  <div id="mountain-shape">
+    <svg width="1280px" height="2034px" viewBox="0 0 1280 2034" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns="http://www.w3.org/2000/svg">
+      <g id="mountains">
+        <path
+          d="M0 854L1280 854L1280 0L916.759 162.368L571.331 121.577Q568.306 121.22 565.265 121.047Q562.223 120.875 559.177 120.888Q556.131 120.901 553.091 121.099Q550.051 121.298 547.029 121.681Q544.007 122.064 541.014 122.63Q538.021 123.197 535.068 123.944Q532.114 124.691 529.212 125.617Q526.31 126.543 523.47 127.644L278.362 222.631Q277.543 222.948 276.713 223.237Q275.884 223.525 275.044 223.784Q274.205 224.043 273.358 224.273Q272.51 224.502 271.654 224.702Q270.799 224.901 269.937 225.071Q269.076 225.24 268.208 225.379Q267.341 225.518 266.47 225.626Q265.598 225.735 264.723 225.813Q263.849 225.89 262.972 225.938Q262.095 225.985 261.216 226.001Q260.338 226.017 259.46 226.002Q258.582 225.988 257.705 225.942Q256.828 225.897 255.953 225.82Q255.078 225.744 254.206 225.637Q253.334 225.53 252.467 225.393Q251.6 225.255 250.738 225.087Q249.876 224.919 249.02 224.721Q248.164 224.523 247.316 224.295Q246.468 224.067 245.628 223.81Q244.789 223.552 243.959 223.265Q243.129 222.978 242.309 222.662Q241.49 222.346 240.682 222.002Q239.874 221.657 239.079 221.285Q238.283 220.912 237.502 220.512Q236.72 220.111 235.953 219.684Q235.186 219.256 234.434 218.802Q233.682 218.348 232.947 217.867Q232.212 217.387 231.494 216.881Q230.776 216.375 230.076 215.844Q229.377 215.313 228.696 214.758Q228.015 214.203 227.355 213.625Q226.694 213.046 226.054 212.445L0 0L0 854Z"
+          id="Rectangle-5" fill="#F8C822" fill-rule="evenodd" stroke="none" />
+        <path
+          d="M0 1449L1280 1449L1280 558L916.759 727.403L572.349 684.97Q569.204 684.583 566.041 684.395Q562.878 684.207 559.71 684.22Q556.541 684.233 553.38 684.447Q550.218 684.661 547.077 685.074Q543.935 685.487 540.826 686.099Q537.717 686.71 534.653 687.517Q531.589 688.324 528.582 689.323Q525.575 690.323 522.637 691.511L279.362 789.872Q278.522 790.211 277.67 790.52Q276.819 790.829 275.956 791.107Q275.094 791.385 274.222 791.632Q273.35 791.878 272.469 792.093Q271.589 792.308 270.701 792.49Q269.814 792.673 268.92 792.824Q268.026 792.974 267.128 793.092Q266.23 793.21 265.328 793.295Q264.425 793.38 263.521 793.433Q262.616 793.486 261.71 793.505Q260.804 793.525 259.898 793.512Q258.992 793.499 258.087 793.453Q257.182 793.407 256.279 793.328Q255.377 793.25 254.477 793.138Q253.578 793.027 252.683 792.883Q251.789 792.739 250.9 792.563Q250.011 792.387 249.129 792.179Q248.247 791.97 247.373 791.73Q246.5 791.49 245.635 791.219Q244.771 790.947 243.916 790.644Q243.062 790.341 242.22 790.008Q241.377 789.675 240.547 789.311Q239.717 788.947 238.901 788.553Q238.085 788.16 237.284 787.737Q236.482 787.314 235.697 786.862Q234.911 786.41 234.142 785.931Q233.374 785.451 232.623 784.943Q231.872 784.436 231.14 783.902Q230.408 783.367 229.696 782.807Q228.984 782.246 228.293 781.66Q227.602 781.074 226.932 780.464Q226.263 779.853 225.616 779.219L0 558L0 1449Z"
+          id="Rectangle-6" fill="#000000" fill-rule="evenodd" stroke="none" />
+        <path
+          d="M0 2034L1280 2034L1280 1143L916.759 1312.4L572.349 1269.97Q569.204 1269.58 566.041 1269.39Q562.878 1269.21 559.71 1269.22Q556.541 1269.23 553.38 1269.45Q550.218 1269.66 547.077 1270.07Q543.935 1270.49 540.826 1271.1Q537.717 1271.71 534.653 1272.52Q531.589 1273.32 528.582 1274.32Q525.575 1275.32 522.637 1276.51L279.362 1374.87Q278.522 1375.21 277.67 1375.52Q276.819 1375.83 275.956 1376.11Q275.094 1376.39 274.222 1376.63Q273.35 1376.88 272.469 1377.09Q271.589 1377.31 270.701 1377.49Q269.814 1377.67 268.92 1377.82Q268.026 1377.97 267.128 1378.09Q266.23 1378.21 265.328 1378.3Q264.425 1378.38 263.521 1378.43Q262.616 1378.49 261.71 1378.51Q260.804 1378.52 259.898 1378.51Q258.992 1378.5 258.087 1378.45Q257.182 1378.41 256.279 1378.33Q255.377 1378.25 254.477 1378.14Q253.578 1378.03 252.683 1377.88Q251.789 1377.74 250.9 1377.56Q250.011 1377.39 249.129 1377.18Q248.247 1376.97 247.373 1376.73Q246.5 1376.49 245.635 1376.22Q244.771 1375.95 243.916 1375.64Q243.062 1375.34 242.22 1375.01Q241.377 1374.67 240.547 1374.31Q239.717 1373.95 238.901 1373.55Q238.085 1373.16 237.284 1372.74Q236.482 1372.31 235.697 1371.86Q234.911 1371.41 234.142 1370.93Q233.374 1370.45 232.623 1369.94Q231.872 1369.44 231.14 1368.9Q230.408 1368.37 229.696 1367.81Q228.984 1367.25 228.293 1366.66Q227.602 1366.07 226.932 1365.46Q226.263 1364.85 225.616 1364.22L0 1143L0 2034Z"
+          id="Rectangle-7" fill="#FFFFFF" fill-rule="evenodd" stroke="none" />
+      </g>
+    </svg>
+  </div>
+
+  <div id="work-experience" class="title">
+    <strong>Experience</strong>
+  </div>
+
+  <div id="first-work-experience">
+    <img src="assets/img/value_it_logo.jpg" class="company-logo" width="150" height="150" alt="value it company">
+    <div id="missions">
+      <ul id="tasks">
+        <li>
+          <h4>Missions</h4>
+        </li>
+        <li><img src="assets/img/checkmark.png" width="30" height="30">Testing code and new features</li>
+        <li><img src="assets/img/checkmark.png" width="30" height="30">Fixing bugs</li>
+        <li><img src="assets/img/checkmark.png" width="30" height="30">Fulfil client needs and code patches</li>
+      </ul>
+    </div>
+    <div id="duration" class="title">
+      <strong>9 Months</strong>
+      <img src="assets/img/clock.png" id="clock" width="30" height="30">
+    </div>
+    <div style="background-color: rgb(157, 179, 33);" class="experience-position">
+      Spring Boot/Angular Developer
+    </div>
+  </div>
+  <div id="second-work-experience">
+    <img src="assets/img/avito_logo.jpg" class="company-logo" width="150" height="150" alt="value it company">
+    <div id="missions">
+      <ul id="tasks">
+        <li>
+          <h4>Missions</h4>
+        </li>
+        <li><img src="assets/img/checkmark.png" width="30" height="30">Account Management</li>
+        <li><img src="assets/img/checkmark.png" width="30" height="30">Integrating new modules inside</li>
+        <li><img src="assets/img/checkmark.png" width="30" height="30">Creating worflow rules</li>
+      </ul>
+    </div>
+    <div id="duration" class="title">
+      <strong>6 Months</strong>
+      <img src="assets/img/clock.png" id="clock" width="30" height="30">
+    </div>
+    <div style="background-color: rgb(255, 153, 57);" class="experience-position">
+      CRM Manager
+    </div>
+  </div>
+
+  <div id="third-work-experience">
+    <img src="assets/img/insoft-logo.png" class="company-logo" width="150" height="150" alt="value it company">
+    <div id="missions">
+      <ul id="tasks">
+        <li>
+          <h4>Missions</h4>
+        </li>
+        <li><img src="assets/img/checkmark.png" width="30" height="30">Testing code and new features</li>
+        <li><img src="assets/img/checkmark.png" width="30" height="30">Fixing bugs</li>
+        <li><img src="assets/img/checkmark.png" width="30" height="30">Fulfil client needs and code patches</li>
+      </ul>
+    </div>
+    <div id="duration" class="title">
+      <strong>2 Months</strong>
+      <img src="assets/img/clock.png" id="clock" width="30" height="30">
+    </div>
+    <div class="experience-position">
+      Spring / Angular Developer
+    </div>
+  </div>
 </body>
 
 </html>
