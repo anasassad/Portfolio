@@ -369,6 +369,30 @@ li {
     box-shadow: 0px 0px 10px rgba(100, 100, 100, 0.5);
 }
 
+#status{
+    display: flex;
+    font-weight: bold;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 31px;
+    color: black;
+    padding: 20px;
+    width: 150px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1;
+    
+    box-shadow: 0px 2px 8px rgba(100, 100, 100, 0.5);
+}
+
+#dot {
+    width: 20px;
+    height: 20px;
+    background-color: green;
+    border-radius: 100%;
+}
+
 /* Animation */
 
 @keyframes flash {
