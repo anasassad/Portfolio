@@ -128,12 +128,7 @@ li{
     
     animation : flash 1s infinite;
 }
-@keyframes flash {
-    
-    100%{
-        transform: scale(2);;
-    }
-}
+
 #logo_pc {
     color: white;
     position: absolute;
@@ -230,6 +225,12 @@ li{
     height: 323.8px;
 }
 
+#shape-mountain{
+    width: 100%;
+    position: absolute;
+    top: 1285px;
+    z-index: -1;
+}
 .rectangle-1{
     position: absolute;
     left: 0px;
@@ -253,66 +254,19 @@ li{
     background: #000000;
 }
 
+#carousel-languages{
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    width: 120%;
+    top: 1353px;
+}
 
+/* Animation */
 
-@media screen and (max-width : 720px) {
-
-    h1 {
-        color: white;
-        width: 300px;
-        height: 200px;
-        left: 30%;
-        right: 34%;
+@keyframes flash {
+    
+    100%{
+        transform: scale(2);;
     }
-
-    #portfolio {
-        width: 70%;
-        right: 15%;
-        left: 15%;
-        text-align: left;
-        transition: 1s all;
-    }
-    #download {
-        right: 15%;
-    }
-
-    #about-myself {
-        width: 70%;
-        right: 15%;
-        left: 15%;
-        transition: 1s all;
-    }
-
-    #logo_pc,
-    #dashed-rectangles-wrapper {
-        display: none;
-    }
-
-    #logo_spring,
-    #logo_java,
-    #logo_angular {
-        transition: 1s all;
-    }
-
-    #logo_java {
-        top: 15%;
-        left: 10%;
-    }
-
-    #logo_spring {
-        top: 40%;
-        left: 70%;
-    }
-
-    #logo_angular {
-        top: 65%;
-        left: 15%;
-    }
-
-    #rectangles-wrapper{
-        left: 5%;
-        right: 5%;
-        width: 90%;
-    }
-
 }
