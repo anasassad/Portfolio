@@ -4,10 +4,12 @@
 <head>
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="description" content="Professional personal portfolio for business (C) Assad Anas Created at 2022 Dec">
   <meta>
   <title>Official Portfolio</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+  <link rel="stylesheet" type="text/css" media="(max-width : 720px)" href="css/main_720.css">
 </head>
 
 <body>
@@ -28,10 +30,10 @@
 
   <h1>THIS IS TECH WORLD</h1>
 
-  <img id="logo_pc" src="assets/img/computer.png" />
-  <img id="logo_java" src="assets/img/java.png">
-  <img id="logo_angular" src="assets/img/angular-js.png">
-  <img id="logo_spring" src="assets/img/spring-boot.png">
+  <img id="logo_pc" src="assets/img/computer.png" alt="computer"/>
+  <img id="logo_java" src="assets/img/java.png" alt="java">
+  <img id="logo_angular" src="assets/img/angular-js.png" alt="angular js">
+  <img id="logo_spring" src="assets/img/spring-boot.png" alt="spring boot">
 
   <div id="dashed-rectangles-wrapper">
     <span id="rec-1" class="fixed-logo"></span>
@@ -49,13 +51,13 @@
     <div class="rectangle-1"></div>
     <div class="rectangle-2">
       <ul>
-        <li><img src="assets/img/card-id.png" width="40" height="40">
+        <li><img src="assets/img/card-id.png" width="40" height="40" alt="card Id">
           <p>ANAS ASSAD</p>
         </li>
-        <li><img src="assets/img/job.png" width="40" height="40">
+        <li><img src="assets/img/job.png" width="40" height="40" alt="laptop bag">
           <p>FULL STACK <span style="color: white;">WEB DEVELOPER</span></p>
         </li>
-        <li><img src="assets/img/location.png" width="40" height="40">
+        <li><img src="assets/img/location.png" width="40" height="40" alt="location mark">
           <p>CASABLANCA</p>
         </li>
       </ul>
@@ -67,16 +69,30 @@
     <defs>
       <image width="200" height="200"
         xlink:href="data:image/png;base64,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"
-        id="img_1" />
+        id="Fingerprint" />
     </defs>
     <g>
-      <use xlink:href="#img_1" fill="#FFFFFF" stroke="none" transform="scale(1.565 1.565)" />
+      <use xlink:href="#Fingerprint" fill="#FFFFFF" stroke="none" transform="scale(1.565 1.565)" />
     </g>
   </svg>
 
   <div id="oval"></div>
 
-
+  <div id="carousel-languages">
+    <img src="assets/img/angular-js.png" width="60" height="60" alt="angular js">
+    <img src="assets/img/java.png" width="60" height="60" alt="java">
+    <img src="assets/img/spring-boot-modern.png" width="60" height="60" alt="spring boot">
+    <img src="assets/img/html.png" width="60" height="60" alt="html">
+    <img src="assets/img/c++.png" width="60" height="60" alt="c++">
+    <img src="assets/img/ts.png" width="60" height="60" alt="typescript">
+  </div>
+<div id="shape-mountain">
+  <svg width="100%" height="50%" viewBox="0 0 1346 635" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+    <g id="Group-16">
+      <path d="M0 635L1346 635L1346 0L964.029 120.731L592.492 89.7069Q588.119 89.3418 583.732 89.3611Q579.345 89.3803 574.976 89.7837Q570.607 90.1871 566.291 90.9715Q561.974 91.756 557.743 92.9155L283.779 167.988Q282.492 168.341 281.188 168.624Q279.884 168.908 278.566 169.121Q277.249 169.335 275.922 169.478Q274.595 169.621 273.262 169.693Q271.929 169.765 270.595 169.766Q269.26 169.766 267.927 169.696Q266.595 169.626 265.267 169.484Q263.94 169.343 262.623 169.131Q261.305 168.919 260 168.637Q258.696 168.355 257.408 168.003Q256.121 167.652 254.854 167.233Q253.587 166.814 252.344 166.327Q251.101 165.841 249.886 165.289Q248.671 164.737 247.487 164.121Q246.303 163.505 245.153 162.826Q244.004 162.148 242.892 161.409L0 0L0 635Z" id="Rectangle-5" fill="#F8C822" fill-rule="evenodd" stroke="none" />
+    </g>
+  </svg>
+</div>
 </body>
 
 </html>
